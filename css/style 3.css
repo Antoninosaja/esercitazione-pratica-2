@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #5C668B;
+}
+
+.navbar {
+  background-color: #514FBB;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 8px;
+  margin: 0 2px;
+}
+
+.navbar a.home {
+  order: -1;
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.page-title {
+  padding-top: 30px;
+  align-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.page-content {
+  color: white;
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto; /* Questo centrerà l'immagine */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Allinea le immagini distribuendole uniformemente nello spazio disponibile */
+  margin-bottom: 50px; /* Aggiunge un margine inferiore per separare le immagini dal contenuto successivo */
+}
+
+.image {
+  width: 30%; /* Imposta la larghezza delle miniature in modo che siano equidistanti e non troppo vicine */
+  overflow: hidden; /* Assicura che l'immagine non superi i limiti del contenitore */
+}
+
+.image img {
+  width: 100%; /* Rendi l'immagine larga quanto il contenitore */
+  height: 100%; /* Rendi l'altezza dell'immagine uguale alla larghezza per renderla un quadrato */
+  object-fit: cover; /* Fa in modo che l'immagine copra l'intera area mantenendo le proporzioni */
+}
+
+
+.linea-nera {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.icone {
+  margin-top: 20px; /* Distanza tra la linea nera e le icone */
+}
+
+.icone a {
+  margin: 0 10px; /* Spazio tra le icone */
+}
+
+.icone img {
+  width: 2%;
+  height: 2%;
+  object-fit: cover; /* Fai in modo che l'immagine copra l'intera area mantenendo le proporzioni */
+
+
+}
+
+.text {
+  color:white;
+  align-content: left;
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
